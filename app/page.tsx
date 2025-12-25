@@ -7,10 +7,10 @@ export default function Home() {
       <section className="px-4 py-20 md:py-32">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            预测未来，赢取收益
+            Predict the Future, Earn Rewards
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Polymarket 是全球最大的去中心化预测市场平台，让你通过预测真实世界事件来获得收益
+            Polymarket is the world's largest decentralized prediction market platform where you can profit from predicting real-world events
           </p>
           <a
             href={referralLink}
@@ -18,7 +18,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            立即开始交易
+            Start Trading Now
           </a>
         </div>
       </section>
@@ -27,28 +27,28 @@ export default function Home() {
       <section className="px-4 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-            什么是 Polymarket？
+            What is Polymarket?
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 mb-4">
-                Polymarket 是一个基于区块链的预测市场平台，用户可以对政治、经济、体育、科技等各类真实世界事件的结果进行预测和交易。
+                Polymarket is a blockchain-based prediction market platform where users can predict and trade on outcomes of real-world events across politics, economics, sports, technology, and more.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                通过购买"是"或"否"的份额，你可以表达对事件结果的看法。如果你的预测正确，每份额将获得 $1 的回报。
+                By purchasing "Yes" or "No" shares, you express your view on event outcomes. If your prediction is correct, each share pays out $1.
               </p>
               <p className="text-lg text-gray-700">
-                平台采用去中心化技术，确保交易透明、公平，并且无需中间商。
+                The platform uses decentralized technology to ensure transparent, fair trading without intermediaries.
               </p>
             </div>
             <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-2xl">
               <div className="text-center">
                 <div className="text-5xl font-bold text-blue-600 mb-2">$3.7B+</div>
-                <div className="text-gray-700 mb-6">累计交易量</div>
+                <div className="text-gray-700 mb-6">Total Volume</div>
                 <div className="text-5xl font-bold text-purple-600 mb-2">500K+</div>
-                <div className="text-gray-700 mb-6">活跃用户</div>
+                <div className="text-gray-700 mb-6">Active Users</div>
                 <div className="text-5xl font-bold text-green-600 mb-2">10K+</div>
-                <div className="text-gray-700">预测市场</div>
+                <div className="text-gray-700">Prediction Markets</div>
               </div>
             </div>
           </div>
@@ -59,49 +59,49 @@ export default function Home() {
       <section className="px-4 py-16">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            为什么选择 Polymarket？
+            Why Choose Polymarket?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">准确的市场预测</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Accurate Market Predictions</h3>
               <p className="text-gray-700">
-                群体智慧往往比个人专家更准确。Polymarket 的预测准确率已被证明超过传统民调和专家预测。
+                Crowd wisdom often outperforms individual experts. Polymarket's prediction accuracy has been proven to exceed traditional polls and expert forecasts.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">真实收益机会</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Real Profit Opportunities</h3>
               <p className="text-gray-700">
-                如果你对某个事件有独到见解，可以通过正确预测获得实际收益。市场效率低下时，机会更大。
+                If you have unique insights on events, you can earn real returns through accurate predictions. Greater opportunities exist when markets are inefficient.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">🔒</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">去中心化安全</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Decentralized Security</h3>
               <p className="text-gray-700">
-                基于 Polygon 区块链，所有交易透明可查，资金由智能合约管理，无需信任中心化机构。
+                Built on Polygon blockchain, all transactions are transparent and verifiable. Funds are managed by smart contracts without trusting centralized institutions.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">低费用快速交易</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Low Fees, Fast Trading</h3>
               <p className="text-gray-700">
-                使用 Polygon 网络，交易费用极低（通常不到 $0.01），交易确认速度快，用户体验流畅。
+                Using Polygon network, transaction fees are extremely low (typically under $0.01), with fast confirmation times and smooth user experience.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">丰富的市场选择</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Diverse Market Selection</h3>
               <p className="text-gray-700">
-                从美国大选、加密货币价格到体育赛事，涵盖各类热门话题，总有你感兴趣的预测市场。
+                From US elections and crypto prices to sports events, covering all trending topics with prediction markets that interest you.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-4xl mb-4">🌍</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">全球化平台</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Global Platform</h3>
               <p className="text-gray-700">
-                无地域限制，全球用户都可以参与。24/7 全天候交易，随时把握市场机会。
+                No geographic restrictions, users worldwide can participate. 24/7 trading, seize market opportunities anytime.
               </p>
             </div>
           </div>
@@ -112,13 +112,13 @@ export default function Home() {
       <section className="px-4 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            Polymarket vs 竞品对比
+            Polymarket vs Competitors
           </h2>
           <div className="overflow-x-auto mb-12">
             <table className="w-full bg-white rounded-xl shadow-lg overflow-hidden">
               <thead className="bg-gray-900 text-white">
                 <tr>
-                  <th className="px-6 py-4 text-left">对比维度</th>
+                  <th className="px-6 py-4 text-left">Comparison</th>
                   <th className="px-6 py-4 text-left bg-blue-600">Polymarket</th>
                   <th className="px-6 py-4 text-left">Kalshi</th>
                   <th className="px-6 py-4 text-left">Limitless</th>
@@ -127,46 +127,46 @@ export default function Home() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">月交易量</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">$3.74B (2025.11)</td>
-                  <td className="px-6 py-4">$5.8B (2025.11)</td>
-                  <td className="px-6 py-4">较小</td>
-                  <td className="px-6 py-4">较小</td>
+                  <td className="px-6 py-4">Monthly Volume</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">$3.74B (Nov 2025)</td>
+                  <td className="px-6 py-4">$5.8B (Nov 2025)</td>
+                  <td className="px-6 py-4">Smaller</td>
+                  <td className="px-6 py-4">Smaller</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">技术架构</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">以太坊区块链</td>
-                  <td className="px-6 py-4">中心化</td>
+                  <td className="px-6 py-4">Technology</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">Ethereum Blockchain</td>
+                  <td className="px-6 py-4">Centralized</td>
                   <td className="px-6 py-4">Base (L2)</td>
-                  <td className="px-6 py-4">去中心化</td>
+                  <td className="px-6 py-4">Decentralized</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">监管状态</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">CFTC 批准</td>
-                  <td className="px-6 py-4">CFTC 监管</td>
-                  <td className="px-6 py-4">无监管</td>
-                  <td className="px-6 py-4">无监管</td>
+                  <td className="px-6 py-4">Regulation</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">CFTC Approved</td>
+                  <td className="px-6 py-4">CFTC Regulated</td>
+                  <td className="px-6 py-4">Unregulated</td>
+                  <td className="px-6 py-4">Unregulated</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">市场类别</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">政治、体育、经济、娱乐</td>
-                  <td className="px-6 py-4">政治、经济为主</td>
-                  <td className="px-6 py-4">短期事件</td>
-                  <td className="px-6 py-4">多样化</td>
+                  <td className="px-6 py-4">Market Categories</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">Politics, Sports, Economics, Entertainment</td>
+                  <td className="px-6 py-4">Politics, Economics Focus</td>
+                  <td className="px-6 py-4">Short-term Events</td>
+                  <td className="px-6 py-4">Diverse</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">流动性</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">极高</td>
-                  <td className="px-6 py-4">高</td>
-                  <td className="px-6 py-4">中等</td>
-                  <td className="px-6 py-4">中等</td>
+                  <td className="px-6 py-4">Liquidity</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">Very High</td>
+                  <td className="px-6 py-4">High</td>
+                  <td className="px-6 py-4">Medium</td>
+                  <td className="px-6 py-4">Medium</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4">支付方式</td>
-                  <td className="px-6 py-4 font-semibold text-blue-600">USDC/加密货币</td>
-                  <td className="px-6 py-4">USD/信用卡</td>
-                  <td className="px-6 py-4">加密货币</td>
-                  <td className="px-6 py-4">加密货币</td>
+                  <td className="px-6 py-4">Payment Methods</td>
+                  <td className="px-6 py-4 font-semibold text-blue-600">USDC/Crypto</td>
+                  <td className="px-6 py-4">USD/Credit Card</td>
+                  <td className="px-6 py-4">Crypto</td>
+                  <td className="px-6 py-4">Crypto</td>
                 </tr>
               </tbody>
             </table>
@@ -174,28 +174,28 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-blue-900 mb-4">✅ Polymarket 优势</h3>
+              <h3 className="text-xl font-bold text-blue-900 mb-4">✅ Polymarket Advantages</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• 最高的流动性和交易深度</li>
-                <li>• 区块链透明性与监管合规结合</li>
-                <li>• 最丰富的市场类别选择</li>
-                <li>• 全球用户基础最广</li>
+                <li>• Highest liquidity and trading depth</li>
+                <li>• Blockchain transparency with regulatory compliance</li>
+                <li>• Most diverse market category selection</li>
+                <li>• Largest global user base</li>
               </ul>
             </div>
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-purple-900 mb-4">📌 Kalshi 特点</h3>
+              <h3 className="text-xl font-bold text-purple-900 mb-4">📌 Kalshi Features</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• 传统金融监管</li>
-                <li>• 支持法币直接交易</li>
-                <li>• 交易量大但类别较少</li>
+                <li>• Traditional financial regulation</li>
+                <li>• Direct fiat currency trading</li>
+                <li>• High volume but fewer categories</li>
               </ul>
             </div>
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-green-900 mb-4">📌 Limitless 特点</h3>
+              <h3 className="text-xl font-bold text-green-900 mb-4">📌 Limitless Features</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• 专注短期事件交易</li>
-                <li>• 基于 Base L2，费用低</li>
-                <li>• 市场规模较小</li>
+                <li>• Focus on short-term event trading</li>
+                <li>• Built on Base L2, low fees</li>
+                <li>• Smaller market size</li>
               </ul>
             </div>
           </div>
@@ -206,7 +206,7 @@ export default function Home() {
       <section className="px-4 py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            详细使用教程
+            Detailed Tutorial
           </h2>
           <div className="space-y-6 mb-12">
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -214,8 +214,8 @@ export default function Home() {
                 1
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">创建钱包</h3>
-                <p className="text-gray-700">安装 MetaMask 或其他以太坊钱包扩展，创建您的数字钱包账户。保管好助记词和私钥。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Create a Wallet</h3>
+                <p className="text-gray-700">Install MetaMask or another Ethereum wallet extension and create your digital wallet account. Keep your seed phrase and private keys secure.</p>
               </div>
             </div>
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -223,8 +223,8 @@ export default function Home() {
                 2
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">购买 USDC</h3>
-                <p className="text-gray-700">通过交易所（如 Coinbase、Binance）购买 USDC 稳定币，并转入您的钱包地址。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Purchase USDC</h3>
+                <p className="text-gray-700">Buy USDC stablecoin through an exchange (like Coinbase or Binance) and transfer it to your wallet address.</p>
               </div>
             </div>
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -232,8 +232,8 @@ export default function Home() {
                 3
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">连接 Polymarket</h3>
-                <p className="text-gray-700">访问 polymarket.com，点击"Connect Wallet"连接您的钱包，授权后即可开始使用。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Connect to Polymarket</h3>
+                <p className="text-gray-700">Visit polymarket.com, click "Connect Wallet" to connect your wallet, authorize, and start using the platform.</p>
               </div>
             </div>
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -241,8 +241,8 @@ export default function Home() {
                 4
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">选择市场</h3>
-                <p className="text-gray-700">浏览感兴趣的预测市场，查看市场详情、当前赔率和交易量。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Choose a Market</h3>
+                <p className="text-gray-700">Browse prediction markets of interest, review market details, current odds, and trading volume.</p>
               </div>
             </div>
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -250,8 +250,8 @@ export default function Home() {
                 5
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">下单交易</h3>
-                <p className="text-gray-700">选择"Yes"或"No"，输入交易金额，确认交易并支付 gas 费用即可完成。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Place a Trade</h3>
+                <p className="text-gray-700">Select "Yes" or "No", enter your trade amount, confirm the transaction and pay gas fees to complete.</p>
               </div>
             </div>
             <div className="flex gap-6 items-start bg-white p-6 rounded-xl shadow-md">
@@ -259,20 +259,20 @@ export default function Home() {
                 6
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">等待结算</h3>
-                <p className="text-gray-700">事件结束后，系统自动结算。如果预测正确，收益直接到账您的钱包。</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Wait for Settlement</h3>
+                <p className="text-gray-700">After the event concludes, the system automatically settles. If your prediction is correct, profits are sent directly to your wallet.</p>
               </div>
             </div>
           </div>
 
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 border-l-4 border-yellow-500 p-6 rounded-lg">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">💡 新手提示</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">💡 Beginner Tips</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>• 建议从小额交易开始，熟悉平台操作流程</li>
-              <li>• 仔细阅读市场规则和结算条件</li>
-              <li>• 关注市场流动性，选择交易活跃的市场</li>
-              <li>• 可以随时卖出持仓，不必等到事件结束</li>
-              <li>• 保管好钱包私钥，Polymarket 无法帮您找回</li>
+              <li>• Start with small trades to familiarize yourself with the platform</li>
+              <li>• Carefully read market rules and settlement conditions</li>
+              <li>• Focus on market liquidity, choose actively traded markets</li>
+              <li>• You can sell your position anytime, no need to wait for event conclusion</li>
+              <li>• Keep your wallet private keys secure - Polymarket cannot recover them</li>
             </ul>
           </div>
         </div>
@@ -282,24 +282,24 @@ export default function Home() {
       <section className="px-4 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            平台数据一览
+            Platform Statistics
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-xl text-center">
               <div className="text-3xl font-bold text-blue-600 mb-2">$3.7B+</div>
-              <div className="text-gray-600">总交易量</div>
+              <div className="text-gray-600">Total Volume</div>
             </div>
             <div className="bg-white p-6 rounded-xl text-center">
               <div className="text-3xl font-bold text-green-600 mb-2">500K+</div>
-              <div className="text-gray-600">注册用户</div>
+              <div className="text-gray-600">Registered Users</div>
             </div>
             <div className="bg-white p-6 rounded-xl text-center">
               <div className="text-3xl font-bold text-purple-600 mb-2">10K+</div>
-              <div className="text-gray-600">活跃市场</div>
+              <div className="text-gray-600">Active Markets</div>
             </div>
             <div className="bg-white p-6 rounded-xl text-center">
               <div className="text-3xl font-bold text-orange-600 mb-2">95%+</div>
-              <div className="text-gray-600">预测准确率</div>
+              <div className="text-gray-600">Prediction Accuracy</div>
             </div>
           </div>
         </div>
@@ -309,36 +309,36 @@ export default function Home() {
       <section className="px-4 py-16">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            如何开始？
+            How to Get Started?
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">
                 1
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">注册账户</h3>
-              <p className="text-gray-600">使用邮箱或钱包快速注册</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Register Account</h3>
+              <p className="text-gray-600">Quick registration using email or wallet</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">
                 2
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">充值资金</h3>
-              <p className="text-gray-600">使用 USDC 或信用卡充值</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Deposit Funds</h3>
+              <p className="text-gray-600">Deposit using USDC or credit card</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">
                 3
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">选择市场</h3>
-              <p className="text-gray-600">浏览并选择感兴趣的预测</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Choose Market</h3>
+              <p className="text-gray-600">Browse and select predictions of interest</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">
                 4
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">开始交易</h3>
-              <p className="text-gray-600">买入你认为正确的结果</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Start Trading</h3>
+              <p className="text-gray-600">Buy the outcome you believe is correct</p>
             </div>
           </div>
         </div>
@@ -348,10 +348,10 @@ export default function Home() {
       <section className="px-4 py-20 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            准备好开始了吗？
+            Ready to Get Started?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            加入全球最大的预测市场，用你的洞察力赚取收益
+            Join the world's largest prediction market and profit from your insights
           </p>
           <a
             href={referralLink}
@@ -359,14 +359,14 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
           >
-            立即注册 Polymarket
+            Sign Up for Polymarket
           </a>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="px-4 py-8 bg-gray-900 text-gray-400 text-center">
-        <p>本网站为 Polymarket 推广页面 | 投资有风险，预测需谨慎</p>
+        <p>This is a Polymarket promotional page | Trading involves risk, predict responsibly</p>
       </footer>
     </div>
   );
