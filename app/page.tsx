@@ -1,5 +1,45 @@
+'use client';
+
+import { useState } from 'react';
+
 export default function Home() {
   const referralLink = "https://polymarket.com?via=toykollo";
+  const [showPolymarket, setShowPolymarket] = useState(false);
+
+  if (showPolymarket) {
+    return (
+      <div className="fixed inset-0 z-50 bg-white">
+        <div className="h-full flex flex-col">
+          <div className="bg-gray-900 text-white px-4 py-3 flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <button
+                onClick={() => setShowPolymarket(false)}
+                className="text-white hover:text-gray-300 transition-colors"
+              >
+                ← Back to Landing Page
+              </button>
+              <span className="text-sm text-gray-400">|</span>
+              <span className="text-sm">Polymarket</span>
+            </div>
+            <a
+              href={referralLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-400 hover:text-blue-300"
+            >
+              Open in New Tab →
+            </a>
+          </div>
+          <iframe
+            src={referralLink}
+            className="flex-1 w-full border-0"
+            title="Polymarket"
+            sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
+          />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -12,14 +52,12 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Polymarket is the world's largest decentralized prediction market platform where you can profit from predicting real-world events
           </p>
-          <a
-            href={referralLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors"
+          <button
+            onClick={() => setShowPolymarket(true)}
+            className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors cursor-pointer"
           >
             Start Trading Now
-          </a>
+          </button>
         </div>
       </section>
 
@@ -353,14 +391,12 @@ export default function Home() {
           <p className="text-xl text-blue-100 mb-8">
             Join the world's largest prediction market and profit from your insights
           </p>
-          <a
-            href={referralLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
+          <button
+            onClick={() => setShowPolymarket(true)}
+            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
           >
             Sign Up for Polymarket
-          </a>
+          </button>
         </div>
       </section>
 
